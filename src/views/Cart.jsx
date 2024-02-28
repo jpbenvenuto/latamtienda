@@ -12,7 +12,7 @@ const { VITE_APP_URL } = import.meta.env;
 export default function Cart() {
   const { cart, setCart } = useContext(Context);
   const { user } = useContext(userContext);
-  console.log('contieneuser',user)
+  console.log('contieneuser',user);
   const navigate = useNavigate();
   console.log("Contenido del carrito:", cart);
   
