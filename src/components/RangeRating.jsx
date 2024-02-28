@@ -33,7 +33,7 @@ Form.Group
         <Form.Label>{rating}</Form.Label>
         <Form.Control
           type='range'
-          custom
+          custom="true"
           min='1'
           max='5'
           step='1'

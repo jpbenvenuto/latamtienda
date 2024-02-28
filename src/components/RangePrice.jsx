@@ -31,7 +31,7 @@ const MySlider = ({ onPriceChange }) => {
         <Form.Label>{formatCurrency(value)}</Form.Label>
         <Form.Control
           type="range"
-          custom
+          custom="true"
           min="0"
           max="100"
           step="1"
